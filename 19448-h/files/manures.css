@@ -1,0 +1,149 @@
+body {margin-left: 10%; margin-right: 10%;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em;}
+hr.mid {width: 50%;}
+hr.tiny {width: 20%;}
+
+img {margin: 1em;}
+sup {font-style: normal; line-height: .1em;}
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1.5; margin-top: .5em;
+margin-bottom: .5em;}
+
+h1 {font-size: 200%;}
+h2 {font-size: 150%;}
+h3 {font-size: 125%;}
+h4 {font-size: 115%;}
+h5 {font-size: 100%; line-height: 1em;}
+h6 {font-size: 90%; line-height: 1em;}
+
+p, div, blockquote {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+
+p.illustration {text-align: center; margin-bottom: 1em;}
+p.tablehead {font-size: 80%; margin-top: 1.5em;
+margin-bottom: .5em; text-align: center;}
+p.tablehead.nospace {margin-top: .5em;}
+p.hanging {margin-left: 3em; text-indent: -2em; font-size: 92%;}
+p.inset {padding-left: 2em;}
+
+/* footnotes & tags */
+
+.footnote {font-size: 95%; margin-right: 2em; margin-left: 2em;}
+a.plain {text-decoration: none;}
+a.tag {text-decoration: none; vertical-align: .3em; font-size: 80%;
+line-height: 0em;}
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; border-collapse: separate;
+empty-cells: show; border-spacing: 6pt 0pt; font-size: 92%;
+margin-bottom: 1em; margin-top: 1em;}
+
+table.index {width: 100%; margin-bottom: 0em;}
+table.catalog {border-collapse: collapse;}
+
+table.inline {margin-left: 0em;}
+table.borderline {border-collapse: collapse; empty-cells: show;
+border-top: 1px solid; border-right: hidden; border-bottom: 1px solid;
+border-left: hidden;}
+table.thumbnail {font-size: .7em;}
+table.evil {white-space: nowrap;}
+
+caption {font-size: 85%; margin-top: .5em; text-align: center;}
+
+th {font-weight: normal; text-align: center; vertical-align: middle;
+font-style: italic; font-size: 105%; padding: .1em .2em .3em .2em;}
+
+td {vertical-align: top; text-align: left; padding: .1em .5em;}
+  /* {border: thin dotted #99F;} for testing */
+
+td.chapnum {text-align: center; padding-top: .5em;}
+td.chapname {vertical-align: top;} /*same as default*/
+
+td.number {text-align: right; white-space: nowrap;}
+td.sum {padding-top: .2em; border-top: 1px solid;}
+td.full {border-bottom: 3px double;}
+
+td.appendix {font-variant: small-caps; padding-top: .3em;
+padding-bottom: .3em; padding-left: 2em;}
+
+td.bottompad {padding-bottom: 1em;}
+td.rightpad {padding-right: 1em;}
+td.filler {font-size: .3em;}
+
+td.gap {padding-right: 4em;}
+td.noright {padding-right: 0em; white-space: nowrap;}
+
+.bottomline {border-bottom: 1px solid;}
+.topline {border-top: 1px solid;}
+
+td.dotted {border-left: 1px dashed;}
+td.double, th.double {border-left: 3px double;}
+
+td.center {text-align: center;}
+td.midway {vertical-align: middle;}
+td.middle {text-align: center; vertical-align: middle;}
+
+td.inset {padding-left: 2em;}
+td.inset2 {padding-left: 4em;}
+
+/* conditional */
+table p {margin-top: 0em; margin-left: 1em; text-indent: -1em;
+line-height: normal;}
+table.key p {margin-left: 3em; text-indent: -3em; line-height: 1.2em;}
+table.index p {margin-left: 3em; text-indent: -3em;}
+table.catalog p {margin-left: 0em; text-indent: 0em;}
+
+table.toc td.number, table.index td.number {vertical-align: bottom;}
+table.toc.sans td {font-family: sans-serif;}
+
+table.evil td {text-align: center;}
+table.catalog td {border: 2px solid; padding-top: .5em;
+padding-bottom: .5em;}
+
+table.borderline td {border-left: 1px solid;}
+table.borderline th {border-left: 1px solid; padding-top: .3em;}
+table.borderline td.double, table.borderline th.double
+{border-left: 3px double;}
+table.borderline td.dotted {border-left: 1px dashed;}
+
+tr.topline td, tr.topline th {padding-top: .3em;}
+tr.bottomline td, tr.bottomline th {padding-bottom: .3em;
+border-bottom: 1px solid;}
+tr.toppad td {padding-top: .5em;}
+tr.center td {text-align: center;}
+tr.middle td {vertical-align: middle;}
+
+/* text formatting */
+
+.inset {margin-left: 20%;}
+.leftfloat {float: left;}
+
+.chapter {margin-top: 4em;}
+.section {margin-top: 2em;}
+.space {margin-top: 1em;}
+.nospace {margin-top: 0em;}
+
+.extended {letter-spacing: 0.3em;}
+.pad1 {letter-spacing: 1em;}
+.pad1x {letter-spacing: 1.5em;}
+.pad2 {letter-spacing: 2em;}
+.pad2x {letter-spacing: 2.5em;}
+.pad3 {letter-spacing: 3em;}
+.invisible {visibility: hidden;}
+
+.smallroman {font-size: 85%;}
+.smallcaps {font-variant: small-caps;}
+.plaintext {font-style: normal; font-variant: normal;
+font-weight: normal;}
+.sans {font-family: sans-serif; font-size: 95%;}
+.fancy {font-family: fantasy;}
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+.pagenum {position: absolute; right: 92%; font-size: 90%;
+font-weight: normal; font-style: normal; text-align: right;
+text-indent: 0em; color: #666; background-color: inherit;}
+.mynote {background-color: #DDE; color: #000; padding: .5em;
+margin: 1em 5%; font-family: sans-serif; font-size: 95%;}
+
