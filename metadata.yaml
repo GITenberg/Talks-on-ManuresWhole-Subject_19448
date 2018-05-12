@@ -1,0 +1,28 @@
+_repo: Talks-on-ManuresWhole-Subject_19448
+_version: 0.1.0
+covers:
+- cover_type: archival
+  image_path: 19448-h/images/manurecover.jpg
+creator:
+  author:
+    agent_name: Harris, Joseph
+    birthdate: 1828
+    deathdate: 1892
+    gutenberg_agent_id: '8682'
+    url: http://www.gutenberg.org/2009/agents/8682
+description: ''
+gutenberg_issued: '2006-10-03'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '19448'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Manures'
+- !lcsh 'Fertilizers'
+- !lcc 'S'
+title: "Talks on Manures\r\nA Series of Familiar and Practical Talks Between the Author\
+  \ and the Deacon, the Doctor, and Other Neighbors, on the Whole Subject"
+url: http://www.gutenberg.org/ebooks/19448
